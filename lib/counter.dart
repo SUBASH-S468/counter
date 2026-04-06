@@ -14,21 +14,15 @@ class Counter extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-
-            SizedBox(height: 40),
-
-            
-            Text(
+          SizedBox(height: 40),
+           Text(
               "${count.counter}",
               style: TextStyle(
                 fontSize: 60,
                 fontWeight: FontWeight.bold,
               ),
             ),
-
             SizedBox(height: 30),
-
-            
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -52,8 +46,6 @@ class Counter extends StatelessWidget {
             ),
 
             SizedBox(height: 40),
-
-            
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
@@ -63,8 +55,6 @@ class Counter extends StatelessWidget {
             ),
 
             SizedBox(height: 10),
-
-            
             Expanded(
               child: ListView.builder(
                 itemCount: count.values.length,
