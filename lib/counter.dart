@@ -18,7 +18,7 @@ class Counter extends StatelessWidget {
            Text(
               "${count.counter}",
               style: TextStyle(
-                fontSize: 60,
+                fontSize: 55,
                 fontWeight: FontWeight.bold,
               ),
             ),
